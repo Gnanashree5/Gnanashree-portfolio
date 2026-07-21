@@ -30,7 +30,7 @@ export default function ProjectStory() {
 
                         <p className="mb-8 text-xl leading-9 text-slate-300">
 
-                            Speech therapy shouldn't stop when a child leaves the clinic.
+                            Speech therapy shouldn&apos;t stop when a child leaves the clinic.
                             Consistent home practice is essential for improving articulation,
                             yet many parents struggle to continue structured learning outside
                             therapy sessions.

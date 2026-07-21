@@ -16,7 +16,7 @@ export default function Contact() {
                     </p>
 
                     <h2 className="mt-4 text-5xl font-bold text-slate-90 text-white">
-                        Let's build something meaningful together
+                        Let&apos;s build something meaningful together
                     </h2>
 
                     <div className="mx-auto mt-6 h-1 w-20 rounded-full bg-blue-600" />
@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
 
                 <p className="mx-auto mt-8 max-w-2xl text-lg text-slate-300 leading-8">
-                    I'm currently seeking Software Engineering opportunities where I can contribute, learn, and build impactful products. Whether you'd like to discuss a project, an opportunity, or simply connect, I'd love to hear from you.
+                    I&apos;m currently seeking Software Engineering opportunities where I can contribute, learn, and build impactful products. Whether you&apos;d like to discuss a project, an opportunity, or simply connect, I&apos;d love to hear from you.
                 </p>
 
                 <div className="mt-12 flex flex-wrap justify-center gap-5">

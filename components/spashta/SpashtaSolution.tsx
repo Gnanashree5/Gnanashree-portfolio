@@ -1,4 +1,3 @@
-import Image from "next/image";
 import PhoneMockup from "./PhoneMockup";
 
 export default function SpashtaSolution() {

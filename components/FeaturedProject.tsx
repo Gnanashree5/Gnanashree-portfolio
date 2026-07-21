@@ -29,10 +29,10 @@ export default function FeaturedProject() {
                     <p className="mx-auto mt-6 max-w-3xl text-xl leading-9 text-slate-600">
                         A clinically-inspired Flutter application that helps Kannada-speaking
                         speech impaired children improve speech clarity through engaging home-based practice.
-                        Developed in collaboration with <a href="https://aiishmysore.in/" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-blue-800">All India Institute of Speech and Hearing, Mysuru (AIISH)</a> and published on <a
+                        Developed in collaboration with<Link href="https://aiishmysore.in/" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-blue-800">All India Institute of Speech and Hearing, Mysuru (AIISH)</Link> and published on <Link
                             href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                             target="_blank"
-                            rel="noopener noreferrer" className="underline font-semibold text-blue-800">Google Playstore.</a>
+                            rel="noopener noreferrer" className="underline font-semibold text-blue-800">Google Playstore.</Link>
                     </p>
 
                 </div>

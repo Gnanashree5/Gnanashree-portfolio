@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -32,8 +33,8 @@ export default function Hero() {
 
                     <p className="max-w-2xl text-lg leading-8 text-slate-600">
 
-                        Hi, I'm <span className="font-semibold text-black">S B GNANASHREE JAIN</span>,
-                        a Software Engineer passionate about transforming ideas into intuitive, impactful software. From collaborating with <a href="https://aiishmysore.in/" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-blue-800">All India Institute of Speech and Hearing, Mysuru (AIISH)</a> to develop a healthcare-focused mobile application, to building AI-powered and full stack solutions, I enjoy creating technology that solves meaningful real-world problems.
+                        Hi, I&apos;m <span className="font-semibold text-black">S B GNANASHREE JAIN</span>,
+                        a Software Engineer passionate about transforming ideas into intuitive, impactful software. From collaborating with <Link href="https://aiishmysore.in/" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-blue-800">All India Institute of Speech and Hearing, Mysuru (AIISH)</Link> to develop a healthcare-focused mobile application, to building AI-powered and full stack solutions, I enjoy creating technology that solves meaningful real-world problems.
                     </p>
 
                     <div className="mt-12 flex gap-5">

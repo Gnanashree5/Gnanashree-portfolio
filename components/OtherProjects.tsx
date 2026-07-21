@@ -67,7 +67,7 @@ export default function OtherProjects() {
                 <div className="mb-16 text-center">
 
                     <SectionHeading
-                        title="More things I've built"
+                        title="More things I&apos;ve built"
                         subtitle="Other projects"
                     />
 

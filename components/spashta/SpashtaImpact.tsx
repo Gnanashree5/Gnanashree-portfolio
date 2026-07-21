@@ -16,7 +16,7 @@ export default function SpashtaImpact() {
                     <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-slate-600">
                         Spashta Nudi demonstrates how thoughtful engineering and
                         accessibility-focused design can extend speech therapy beyond
-                        clinical settings into children's everyday lives.
+                        clinical settings into children&apos;s everyday lives.
                     </p>
 
                 </div>

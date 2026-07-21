@@ -8,7 +8,7 @@ export default function SpashtaProblem() {
                 </p>
 
                 <h2 className="max-w-4xl text-5xl font-bold leading-tight">
-                    Speech therapy shouldn't stop when children leave the clinic.
+                    Speech therapy shouldn&apos;t stop when children leave the clinic.
                 </h2>
 
                 <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-300">
