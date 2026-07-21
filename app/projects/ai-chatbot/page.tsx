@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AIChatbot() {
     return (
         <main className="mx-auto max-w-5xl px-6 py-24">
@@ -124,20 +126,20 @@ export default function AIChatbot() {
 
             <div className="mt-20 flex flex-wrap gap-5">
 
-                <a
+                <Link
                     href="https://github.com/Gnanashree5/AI-Chatbot-web-application"
                     target="_blank"
                     className="rounded-xl bg-black px-8 py-4 text-white transition hover:scale-105"
                 >
                     View Source Code →
-                </a>
+                </Link>
 
-                <a
+                <Link
                     href="/#projects"
                     className="rounded-xl border border-slate-300 px-8 py-4 transition hover:border-blue-600 hover:text-blue-600"
                 >
                     ← Back to Portfolio
-                </a>
+                </Link>
 
             </div>
 

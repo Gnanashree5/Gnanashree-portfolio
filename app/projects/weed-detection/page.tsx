@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function WeedDetection() {
     return (
         <main className="mx-auto max-w-5xl px-6 py-24">
@@ -122,20 +123,20 @@ export default function WeedDetection() {
 
             <div className="mt-20 flex flex-wrap gap-5">
 
-                <a
+                <Link
                     href="https://github.com/Gnanashree5/Weed-detection-in-wheat-crops-using-Computer-Vision"
                     target="_blank"
                     className="rounded-xl bg-black px-8 py-4 text-white transition hover:scale-105"
                 >
                     View Source Code →
-                </a>
+                </Link>
 
-                <a
+                <Link
                     href="/#projects"
                     className="rounded-xl border border-slate-300 px-8 py-4 transition hover:border-green-600 hover:text-green-600"
                 >
                     ← Back to Portfolio
-                </a>
+                </Link>
 
             </div>
 

@@ -77,12 +77,12 @@ export default function SpashtaImpact() {
                             View on Google Play
                         </Link>
 
-                        <a
+                        <Link
                             href="/"
                             className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                         >
                             ← Back to Portfolio
-                        </a>
+                        </Link>
 
                     </div>
 

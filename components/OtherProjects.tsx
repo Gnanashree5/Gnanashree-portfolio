@@ -130,12 +130,12 @@ export default function OtherProjects() {
 
                                 <div className="mt-8 flex gap-4">
 
-                                    <a
+                                    <Link
                                         href={project.github}
                                         className="rounded-lg bg-slate-900 px-5 py-3 text-white transition hover:bg-black"
                                     >
                                         GitHub
-                                    </a>
+                                    </Link>
 
                                     <Link
                                         href={project.caseStudy}

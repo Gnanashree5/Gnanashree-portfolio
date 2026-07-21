@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeartDashboard() {
     return (
         <main className="mx-auto max-w-5xl px-6 py-24">
@@ -150,21 +152,21 @@ export default function HeartDashboard() {
 
             <div className="mt-20 flex flex-wrap gap-5">
 
-                <a
+                <Link
                     href="https://github.com/Gnanashree5/Data-analysis-on-heart-disease-public-dataset"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-xl bg-black px-8 py-4 text-white transition hover:scale-105"
                 >
                     View Source Code →
-                </a>
+                </Link>
 
-                <a
+                <Link
                     href="/#projects"
                     className="rounded-xl border border-slate-300 px-8 py-4 transition hover:border-red-600 hover:text-red-600"
                 >
                     ← Back to Portfolio
-                </a>
+                </Link>
 
             </div>
 

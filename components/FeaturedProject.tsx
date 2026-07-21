@@ -96,13 +96,13 @@ export default function FeaturedProject() {
 
                         <div className="mt-10 flex flex-wrap gap-4">
 
-                            <a
+                            <Link
                                 href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                                 target="_blank"
                                 className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
                             >
                                 View on Play Store
-                            </a>
+                            </Link>
 
                             <Link
                                 href="/projects/spashta-nudi"

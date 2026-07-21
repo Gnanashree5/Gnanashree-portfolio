@@ -39,28 +39,28 @@ export default function Hero() {
 
                     <div className="mt-12 flex gap-5">
 
-                        <a
+                        <Link
                             href="#projects"
                             className="rounded-xl bg-blue-500 px-8 py-4 text-white transition hover:bg-blue-700"
                         >
                             Explore Projects
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href="/resume.pdf"
                             download
                             className="rounded-xl bg-blue-500 px-8 py-4 text-white transition hover:bg-blue-700"
                         >
                             Download Resume
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-xl bg-blue-500 px-8 py-4 text-white transition hover:bg-blue-700"
                         >
                             View app on Play Store
-                        </a>
+                        </Link>
                     </div>
                     <div className="mt-10 flex flex-wrap gap-4">
 

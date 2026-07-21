@@ -1,5 +1,5 @@
 import { Mail, Download } from "lucide-react";
-import SectionHeading from "./SectionHeading";
+import Link from "next/link";
 
 export default function Contact() {
     return (
@@ -43,42 +43,42 @@ export default function Contact() {
                                 Email
                             </p>
 
-                            <a
+                            <Link
                                 href="mailto:gnanashreesbjain@gmail.com"
                                 className="font-semibold text-slate-900 transition hover:text-blue-600"
                             >
                                 gnanashreesbjain@gmail.com
-                            </a>
+                            </Link>
 
                         </div>
 
                     </div>
 
-                    <a
+                    <Link
                         href="https://www.linkedin.com/in/s-b-gnanashree-jain-127263281?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                     >
                         💼 LinkedIn
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                         href="https://github.com/Gnanashree5"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                     >
                         💻 GitHub
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                         href="/resume.pdf"
                         download
                         className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                     >
                         📄 Resume
-                    </a>
+                    </Link>
 
                 </div>
             </div>

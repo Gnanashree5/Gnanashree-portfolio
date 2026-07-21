@@ -1,3 +1,4 @@
+import { Link } from "lucide-react";
 import Image from "next/image";
 
 export default function SpashtaHero() {
@@ -71,13 +72,13 @@ export default function SpashtaHero() {
 
                         <div className="mt-10 flex gap-4">
 
-                            <a
+                            <Link
                                 href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                                 target="_blank"
                                 className="rounded-xl bg-blue-600 px-8 py-4 text-white hover:bg-blue-700"
                             >
                                 View on Google Play
-                            </a>
+                            </Link>
 
                         </div>
 

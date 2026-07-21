@@ -37,12 +37,12 @@ export default function Navbar() {
 
                     {navItems.map((item) => (
 
-                        <a
+                        <Link
                             key={item}
                             href={`#${item.toLowerCase()}`}
                             className="relative text-[15px] font-medium text-slate-600 transition duration-300 hover:text-blue-600 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full">
                             {item}
-                        </a>
+                        </Link>
 
                     ))}
 
@@ -66,14 +66,14 @@ export default function Navbar() {
 
                     {navItems.map((item) => (
 
-                        <a
+                        <Link
                             onClick={() => setOpen(false)}
                             key={item}
                             href={`#${item.toLowerCase()}`}
                             className="block px-8 py-5"
                         >
                             {item}
-                        </a>
+                        </Link>
 
                     ))}
 
