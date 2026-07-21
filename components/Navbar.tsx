@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -22,14 +22,14 @@ export default function Navbar() {
 
                 {/* Logo */}
 
-                <a
+                <Link
                     href="/" className="group flex items-center">
                     <span className="text-3xl font-bold">SBGJ</span>
 
                     <span className="ml-0 max-w-0 overflow-hidden whitespace-nowrap text-blue-600 opacity-0 transition-all duration-500 group-hover:ml-3 group-hover:max-w-[320px] group-hover:opacity-100">
                         S B Gnanashree Jain
                     </span>
-                </a>
+                </Link>
 
                 {/* Desktop */}
 

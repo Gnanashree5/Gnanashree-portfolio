@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 const experience = [
     {

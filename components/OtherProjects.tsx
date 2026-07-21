@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
 
 const projects = [

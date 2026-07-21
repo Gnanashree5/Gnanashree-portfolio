@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SpashtaImpact() {
     return (
         <section className="bg-gradient-to-b from-white to-blue-50 py-28">
@@ -66,14 +68,14 @@ export default function SpashtaImpact() {
 
                     <div className="mt-12 flex flex-wrap justify-center gap-5">
 
-                        <a
+                        <Link
                             href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
                         >
                             View on Google Play
-                        </a>
+                        </Link>
 
                         <a
                             href="/"

@@ -1,6 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
-import Image from "next/image";
 import SectionHeading from "./SectionHeading";
 import Link from "next/link";
 import PhoneMockup from "./spashta/PhoneMockup";
