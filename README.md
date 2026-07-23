@@ -146,19 +146,6 @@ http://localhost:3000
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots of:
-
-- Home
-- About
-- Skills
-- Projects
-- Spashta Nudi Case Study
-- Contact
-
----
-
 # 🌍 Live Demo
 
 ### Portfolio
