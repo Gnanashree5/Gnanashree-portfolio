@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Gnanashree Jain – Developer Portfolio
+# 🌐 S B Gnanashree Jain – Developer Portfolio
 
 ### Software Engineer | AI | Full Stack | Flutter Developer
 
