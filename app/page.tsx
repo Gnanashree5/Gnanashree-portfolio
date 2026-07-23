@@ -26,8 +26,8 @@ export default function Home() {
       <Reveal><Education /></Reveal>
       <Reveal><Achievements /></Reveal>
       <Reveal><Contact /></Reveal>
-      <Reveal><Footer /></Reveal>
-      <Reveal><BackToTop /></Reveal>
+      <Footer />
+      <BackToTop />
     </main>
   );
 }

@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 const skillGroups = [
     {
         title: "Programming",
-        skills: ["Java", "Python", "Dart", "C", "SQL"],
+        skills: ["Java", "Python", "JavaScript", "Dart", "C", "SQL"],
     },
     {
         title: "Frontend",
@@ -13,7 +13,6 @@ const skillGroups = [
             "Next.js",
             "HTML5",
             "CSS3",
-            "JavaScript",
             "Tailwind CSS",
             "TypeScript",
         ],
@@ -25,15 +24,15 @@ const skillGroups = [
             "Firebase",
             "Firestore",
             "MySQL",
+            "MongoDB",
         ],
     },
     {
         title: "Artificial Intelligence",
         skills: [
             "Machine Learning",
-            "Deep Learning",
+            "Computer Vision",
             "PyTorch",
-            "TensorFlow",
             "OpenCV",
             "Flask",
         ],
@@ -47,7 +46,6 @@ const skillGroups = [
             "Tableau",
             "Canva",
             "VS Code",
-            "Android Studio",
             "Microsoft excel",
             "Google Play Console",
         ],

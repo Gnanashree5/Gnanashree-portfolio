@@ -1,4 +1,4 @@
-import { Link } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function SpashtaHero() {
@@ -75,9 +75,14 @@ export default function SpashtaHero() {
                             <Link
                                 href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                                 target="_blank"
-                                className="rounded-xl bg-blue-600 px-8 py-4 text-white hover:bg-blue-700"
-                            >
-                                View on Google Play
+                                className="inline-flex items-center gap-1 rounded-xl bg-blue-500 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+                            ><Image
+                                    src="/icons/google play.jpg"
+                                    alt="Google Play"
+                                    width={60}
+                                    height={60}
+                                />
+                                View app on Play Store
                             </Link>
 
                         </div>

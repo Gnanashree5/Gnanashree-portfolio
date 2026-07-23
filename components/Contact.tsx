@@ -58,7 +58,7 @@ export default function Contact() {
                         href="https://www.linkedin.com/in/s-b-gnanashree-jain-127263281?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
+                        className="inline-flex items-center rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                     >
                         💼 LinkedIn
                     </Link>
@@ -67,15 +67,15 @@ export default function Contact() {
                         href="https://github.com/Gnanashree5"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
+                        className="inline-flex items-center rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                     >
                         💻 GitHub
                     </Link>
 
                     <Link
-                        href="/resume.pdf"
-                        download
-                        className="rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
+                        href="/S_B_Gnanashree_Jain_Resume.pdf"
+                        download="S_B_Gnanashree_Jain_Resume.pdf"
+                        className="inline-flex items-center rounded-xl border border-white px-8 py-4 transition hover:bg-white hover:text-slate-900"
                     >
                         📄 Resume
                     </Link>

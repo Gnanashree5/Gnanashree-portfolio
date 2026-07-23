@@ -2,6 +2,7 @@
 import SectionHeading from "./SectionHeading";
 import Link from "next/link";
 import PhoneMockup from "./spashta/PhoneMockup";
+import Image from "next/image";
 
 export default function FeaturedProject() {
     return (
@@ -99,14 +100,20 @@ export default function FeaturedProject() {
                             <Link
                                 href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                                 target="_blank"
-                                className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+                                className="inline-flex items-center gap-1 rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
                             >
+                                <Image
+                                    src="/icons/google play.jpg"
+                                    alt="Google Play"
+                                    width={50}
+                                    height={50}
+                                />
                                 View on Play Store
                             </Link>
 
                             <Link
                                 href="/projects/spashta-nudi"
-                                className="rounded-xl border border-slate-300 px-8 py-4 font-semibold transition hover:border-blue-600 hover:text-blue-600"
+                                className="inline-flex items-center rounded-xl border border-slate-300 px-8 py-4 font-semibold transition hover:border-blue-600 hover:text-blue-600"
                             >
                                 Explore the Journey →
                             </Link>

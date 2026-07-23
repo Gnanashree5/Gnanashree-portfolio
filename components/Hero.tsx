@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Download } from "lucide-react";
 
 export default function Hero() {
     return (
@@ -41,24 +42,30 @@ export default function Hero() {
 
                         <Link
                             href="#projects"
-                            className="rounded-xl bg-blue-500 px-8 py-4 text-white transition hover:bg-blue-700"
+                            className="inline-flex items-center gap-1 rounded-xl bg-blue-500 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
                         >
                             Explore Projects
                         </Link>
 
-                        <Link
-                            href="/resume.pdf"
-                            download
-                            className="rounded-xl bg-blue-500 px-8 py-4 text-white transition hover:bg-blue-700"
+
+                        <a
+                            href="/S_B_Gnanashree_Jain_Resume.pdf"
+                            download="S_B_Gnanashree_Jain_Resume.pdf"
+                            className="inline-flex items-center gap-1 rounded-xl bg-blue-500 px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-blue-700"
                         >
-                            Download Resume
-                        </Link>
+                            <Download className="h-5 w-5" />
+                            <span>Download Resume</span>
+                        </a>
                         <Link
                             href="https://play.google.com/store/apps/details?id=com.spashtanudi.app"
                             target="_blank"
-                            rel="noopener noreferrer"
-                            className="rounded-xl bg-blue-500 px-8 py-4 text-white transition hover:bg-blue-700"
-                        >
+                            className="inline-flex items-center gap-1 rounded-xl bg-blue-500 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+                        ><Image
+                                src="/icons/google play.jpg"
+                                alt="Google Play"
+                                width={60}
+                                height={60}
+                            />
                             View app on Play Store
                         </Link>
                     </div>
